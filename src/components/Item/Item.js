@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './Item.css'
 
-const Item = ({id, name, price, category, stock, img}) => {
+const Item = ({id, name, price, stock, img}) => {
 
     return (
         <div className="ContainerDiv">
@@ -20,9 +20,6 @@ const Item = ({id, name, price, category, stock, img}) => {
                 </p>
                 <p className="Info">
                     stock disponible: {stock}
-                </p>
-                <p className="Info">
-                    categoria: {category}
                 </p>
             </section>
             <footer className='ItemFooter'>
