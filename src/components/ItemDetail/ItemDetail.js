@@ -1,7 +1,7 @@
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount'
 
-const ItemDetail = ({ id, name, price, category, stock, img }) => {
+const ItemDetail = ({ id, name, price, stock, img }) => {
 
     return (
         <div className="ContainerDiv">
@@ -20,9 +20,6 @@ const ItemDetail = ({ id, name, price, category, stock, img }) => {
                     </p>
                     <p className="Info">
                         stock disponible: {stock}
-                    </p>
-                    <p className="Info">
-                        categoria: {category}
                     </p>
                 </section>
                 <footer>
