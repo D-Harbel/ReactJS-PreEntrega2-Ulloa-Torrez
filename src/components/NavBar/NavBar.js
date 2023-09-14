@@ -4,7 +4,7 @@ import './NavBar.css';
 
 const NavBar = () => {
     return (
-        <header>
+        <header className="navbar">
             <Link to={"/"}>
                 <h1> Panfle </h1>
             </Link>
