@@ -5,6 +5,10 @@ header {
     border-bottom: 1px solid black;
 }
 
+.navbar {
+    background-color: orange;
+}
+
 li {
     display: inline-block;
     margin: 1rem;
