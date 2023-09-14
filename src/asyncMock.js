@@ -50,7 +50,7 @@ const products = [
         price: 200,
         category: '2',
         stock: 20,
-        img: 'Artesanal.jpg'
+        img: 'Muffins.jpg'
     }
 
 
